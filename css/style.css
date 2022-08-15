@@ -1,0 +1,38 @@
+
+/* initalized the body with margin/padding - 0 */
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* Section ONE - Heading and Content */
+.section-one {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-one-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+
+/* unordered list consisting of navigation menus */
+.nav-bar {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-bar-link {
+    text-decoration: none;
+    color: #1f2937;
+}
+
+
+
+
