@@ -12,14 +12,21 @@ body {
 .section-one {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
+    background-color: #F9F871;
+    padding-bottom: 50px;
+    color: #1f2937;
+    font-size: 18px;
+
 }
 
 .section-one-heading {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 15px;
+    padding: 0 100px;
+
+
 }
 
 /* unordered list consisting of navigation menus */
@@ -37,6 +44,15 @@ body {
 .section-one-content {
     display: flex;
     justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+    gap: 100px;
+    margin-top: 40px;
+}
+
+
+.content-info-para {
+    max-width: 400px;
 }
 
 
@@ -47,10 +63,28 @@ body {
     background-size: cover;
 }
 
+.content-button-layer {
+    margin : 5px 0;
+    transition: 0.5s;
+}
+
+.content-button-layer:hover {
+    width: 123px;
+    height: 42px;
+    border: 4px solid #03045e;
+    border-radius: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transform: scale(0.9);
+
+
+}
 .content-button {
-    width: 100px;
-    height: 35px;
-    background-color: #1f2937;
+    width: 120px;
+    height: 40px;
+    background-color: #001219;
     border-radius: 5em;
     display: flex;
     justify-content: center;
@@ -59,9 +93,7 @@ body {
     
 }
 
-.content-button:hover {
-    background-color: #105267;
-}
+
 .button-link {
     color: white;
     text-decoration: none;
@@ -79,13 +111,17 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 50px;
+    background-color: #8BD77E;
+    padding-top: 10px;
 }
 
 
 .cards {
+
     display: flex; 
     gap: 10vh;
     justify-content: center;
+    padding-top: 30px;
 }
 
 
@@ -102,6 +138,14 @@ body {
     width: 100px;
     height: 100px;
     background-size: cover;
+    border: 2px solid #3882f6;
+    transition: 0.5s;
+
+
+}
+
+.card:hover {
+    transform: scale(1.3);
 
 }
 
@@ -134,7 +178,10 @@ body {
 .section-three {
     display: flex;
     justify-content: center;
-    background-color: white;
+    background-color: white;;
+    padding: 50px;
+    color: #1F2937;
+
 }
 
 .quotation-module {
@@ -163,28 +210,59 @@ body {
 .section-four {
     display : flex;
     justify-content: center;
+    background-color: #DBF2FF;
+    padding: 50px;
 
 }
 
 .action-bar {
     display: flex;
+    background-color: #1F2937;
+    padding: 23px 50px;
+    border-radius: 15px;
+    color: white;
     align-items: center;
 }
 
 .action-bar-content {
     width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+
+    
+   
 }
 
 .action-bar-button {
     width: 100px;
     height: 35px;
-    background-color: #1f2937;
+    background-color: #1F2937;
     border-radius: 5em;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    border: 2px solid #e5e7eb;
+    transition: 0.5s;
     
+}
+
+.action-bar-button:hover {
+    border-radius: 0%;
+    transform: scale(0.9);
+}
+
+
+.into-heading {
+    margin: 0px;
+    font-size: 16px;
+}
+
+.into-para {
+    margin: 0px;
+    font-size: 10px;
 }
 
 .action-bar-button:hover {
@@ -199,8 +277,9 @@ body {
 footer {
     display: flex;
     justify-content: center;
-    background-color: #f9f871;
+    background-color: #F9F871;
     color: #1f2937;
+    opacity: 0.9;
 
 }
 
