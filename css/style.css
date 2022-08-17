@@ -12,6 +12,7 @@ body {
 .section-one {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 
 .section-one-heading {
@@ -32,6 +33,42 @@ body {
     text-decoration: none;
     color: #1f2937;
 }
+
+.section-one-content {
+    display: flex;
+    justify-content: center;
+}
+
+
+.content-image {
+    width: 400px;
+    height: 200px;
+    background-image: url(../img/coconut-tree.jpg);
+    background-size: cover;
+}
+
+.content-button {
+    width: 100px;
+    height: 35px;
+    background-color: #1f2937;
+    border-radius: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+.content-button:hover {
+    background-color: #105267;
+}
+.button-link {
+    color: white;
+    text-decoration: none;
+}
+
+
+
 
 
 
