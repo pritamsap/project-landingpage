@@ -71,5 +71,145 @@ body {
 
 
 
+/* adding section-two style */
+
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+
+.cards {
+    display: flex; 
+    gap: 10vh;
+    justify-content: center;
+}
+
+
+.card-deck-one, .card-deck-two, .card-deck-three,
+.card-deck-four {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    
+}
+
+.card {
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+
+}
+
+
+.card.one {
+    background-image: url(../img/card1.jpg);
+}
+.card.two {
+    background-image: url(../img/card2.jpg);
+}
+.card.three {
+    background-image: url(../img/card3.jpg);
+}
+.card.four {
+    background-image: url(../img/card4.jpg);
+}
+
+.description-cards {
+    font-size: 10px;
+    display: flex;
+    margin-left: 3px;
+    margin-right: 3px;
+   
+}
+
+
+/* Section-three */
+
+
+.section-three {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.quotation-module {
+    max-width: 500px;
+}
+
+.quotes {
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.quote-title {
+    padding-left: 300px;
+
+}
+
+
+
+
+
+
+
+/* Section-four */
+
+.section-four {
+    display : flex;
+    justify-content: center;
+
+}
+
+.action-bar {
+    display: flex;
+    align-items: center;
+}
+
+.action-bar-content {
+    width: 400px;
+}
+
+.action-bar-button {
+    width: 100px;
+    height: 35px;
+    background-color: #1f2937;
+    border-radius: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+.action-bar-button:hover {
+    background-color: #105267;
+}
+.button-link {
+    color: white;
+    text-decoration: none;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #f9f871;
+    color: #1f2937;
+
+}
+
+
+
+
+
+
+
+
 
 
